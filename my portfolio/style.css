@@ -1,0 +1,43 @@
+/* styles.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #199c08;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgb(186, 173, 173);
+    box-shadow: 0 0 15px rgba(131, 61, 61, 0.2);
+    border-radius: 10px;
+}
+
+h1, h2, h3 {
+    color: #1560b1;
+}
+
+.project, .school, .college {
+    background: #f7f6f6;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.project:hover, .school:hover, .college:hover {
+    transform: scale(1.05);
+}
